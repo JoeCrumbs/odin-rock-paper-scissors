@@ -4,7 +4,7 @@
 > After returning to The Odin Project after a longer break, there may have been some changes in the assignments of the project. Please note that this repository shows my original solution without incorporating these changes.
 
 ## Assignment Nr.1
-([The Odin Project Challenge Nr.2 - Pt.1](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors))
+([The Odin Project Challenge Nr.3 - Pt.1](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors))
 1. Start a new Git repo for your project.
 1. Create a blank HTML document with a script tag. This game is going to be played completely from the console, so don’t worry about putting anything else in there.
 1. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’. We’ll use this function in the game to make the computer’s play.
@@ -28,7 +28,7 @@ console.log(playRound(playerSelection, computerSelection));
     1. Feel free to create more “helper” functions if you think it would be useful.
 
 ## Assignment Nr.2
-([The Odin Project Challenge Nr.2 - Pt.2](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors))
+([The Odin Project Challenge Nr.3 - Pt.2](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors))
 
 Go back to your “Rock Paper Scissors” game from a previous lesson and give it a simple UI so that the player can play the game by clicking on buttons rather than typing their answer in a prompt.
 1. Copy your original code into a new file so you don’t lose it.
