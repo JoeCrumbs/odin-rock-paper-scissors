@@ -1,10 +1,6 @@
 # rock-paper-scissors
 
-> [!NOTE]
-> After returning to The Odin Project after a longer break, there may have been some changes in the assignments of the project. Please note that this repository shows my original solution without incorporating these changes.
-
-## Assignment Nr.1
-([The Odin Project Challenge Nr.2 - Pt.1](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors))
+## Assignment
 1. Start a new Git repo for your project.
 1. Create a blank HTML document with a script tag. This game is going to be played completely from the console, so don’t worry about putting anything else in there.
 1. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’. We’ll use this function in the game to make the computer’s play.
@@ -27,14 +23,5 @@ console.log(playRound(playerSelection, computerSelection));
     1. Feel free to re-work your previous functions if you need to. Specifically, you might want to change the return value to something more useful.
     1. Feel free to create more “helper” functions if you think it would be useful.
 
-## Assignment Nr.2
-([The Odin Project Challenge Nr.2 - Pt.2](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors))
-
-Go back to your “Rock Paper Scissors” game from a previous lesson and give it a simple UI so that the player can play the game by clicking on buttons rather than typing their answer in a prompt.
-1. Copy your original code into a new file so you don’t lose it.
-1. For now, remove the logic that plays exactly five rounds.
-1.  Create three buttons, one for each selection. Add an event listener to the buttons that calls your playRound function with the correct playerSelection every time a button is clicked. (you can keep the console.logs for this step)
-1. Add a div for displaying results and change all of your console.logs into DOM methods.
-1. Display the running score, and announce a winner of the game once one player reaches 5 points.
-1. You will likely have to refactor (rework/rewrite) your original code to make it work for this. That’s OK! Reworking old code is an important part of the programmer’s life.
-1. Don’t forget to go back and add your new version to the original Rock Paper Scissors Project!
+## Learnings
+* a sorted array (right beats left), can be used with modulo in an algortihm to determine the winner of rock paper scissors
